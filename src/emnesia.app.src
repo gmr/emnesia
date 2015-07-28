@@ -1,0 +1,15 @@
+{application, emnesia, [
+  {description, "Mnesia clustering made easy"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    inets,
+    lager
+  ]},
+  {mod, {emnesia, []}},
+  {env, [
+    {name, "emnesia"}
+  ]}
+]}.
